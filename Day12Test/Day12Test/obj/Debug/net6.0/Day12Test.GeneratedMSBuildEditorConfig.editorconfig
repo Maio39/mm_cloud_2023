@@ -15,3 +15,71 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Marco\Source\Repos\Maio39\mm_cloud_2023\Day12Test\Day12Test
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Races/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Races/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Races/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Races/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Races/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Taxis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Taxis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Taxis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Taxis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Taxis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day12Test/Day12Test/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tt1g6lyo0c
