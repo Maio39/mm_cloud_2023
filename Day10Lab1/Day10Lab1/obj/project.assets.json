@@ -10780,11 +10780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marco\\Desktop\\progettiCloudDeveloper\\Day10Lab1\\Day10Lab1\\Day10Lab1.csproj",
+      "projectUniqueName": "C:\\Users\\Marco\\source\\repos\\Maio39\\mm_cloud_2023\\Day10Lab1\\Day10Lab1\\Day10Lab1.csproj",
       "projectName": "Day10Lab1",
-      "projectPath": "C:\\Users\\Marco\\Desktop\\progettiCloudDeveloper\\Day10Lab1\\Day10Lab1\\Day10Lab1.csproj",
+      "projectPath": "C:\\Users\\Marco\\source\\repos\\Maio39\\mm_cloud_2023\\Day10Lab1\\Day10Lab1\\Day10Lab1.csproj",
       "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marco\\Desktop\\progettiCloudDeveloper\\Day10Lab1\\Day10Lab1\\obj\\",
+      "outputPath": "C:\\Users\\Marco\\source\\repos\\Maio39\\mm_cloud_2023\\Day10Lab1\\Day10Lab1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10801,8 +10801,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Marco\\Desktop\\progettiCloudDeveloper\\Day10Lab1\\Day10Lab1c\\Day10Lab1c.csproj": {
-              "projectPath": "C:\\Users\\Marco\\Desktop\\progettiCloudDeveloper\\Day10Lab1\\Day10Lab1c\\Day10Lab1c.csproj"
+            "C:\\Users\\Marco\\source\\repos\\Maio39\\mm_cloud_2023\\Day10Lab1\\Day10Lab1c\\Day10Lab1c.csproj": {
+              "projectPath": "C:\\Users\\Marco\\source\\repos\\Maio39\\mm_cloud_2023\\Day10Lab1\\Day10Lab1c\\Day10Lab1c.csproj"
             }
           }
         }

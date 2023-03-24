@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "81s/7FIJBH5adLMAem6d5MN2aZ4v2CE/1q5UbMa+QcNA94s2+qD9qbcxTgeF/bRcdK6IZ1keNNXuk4k2QttN1Q==",
+  "dgSpecHash": "iqcnfRNyOQq4vCpmnonnU7HxkM227SVC70Dig3qjfTvLBxowhhnfNRUa9gtO0OsoClKnteHW7cMLcgXZBL7SkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marco\\Desktop\\progettiCloudDeveloper\\Day10Lab1\\Day10Lab1\\Day10Lab1.csproj",
+  "projectFilePath": "C:\\Users\\Marco\\source\\repos\\Maio39\\mm_cloud_2023\\Day10Lab1\\Day10Lab1\\Day10Lab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marco\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Marco\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
