@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Day8Lab1.Models.Rubrica
+
+@{
+    
+}
+<h1>Rubrica</h1>
+
+@if(Model!= null && Model.Count>0){
+    <table>
+        <tr style="text-align:center">
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th colspan="2">Tools</th>
+        </tr>
+        @*foreach(Anagraphic contatto in Model)*@
+        @for(int i=0;i<Model.Count;i++)
+        {
+            <tr>
+                <td>@Model[@i].Name</td>
+                <td>@Model[@i].Surname</td>
+                <td>@Model[@i].PhoneNumber</td>
+                <td>@Model[@i].Email</td>
+                <td><a asp-action="Update" asp-route-antani=@i>Update</a></td>
+                <td><a style="color:red" asp-action="Delete" asp-route-indexContact=@i> <!--onclick="return confirm('Really?');"-->Delete</a></td>
+            </tr>
+        }
+    </table>
+}else{
+    <p>Empty Rubrica</p>
+}
+
+<br />
+<h3><a asp-controller="Rubrica" asp-action="New">Add New Contact</a></h3>

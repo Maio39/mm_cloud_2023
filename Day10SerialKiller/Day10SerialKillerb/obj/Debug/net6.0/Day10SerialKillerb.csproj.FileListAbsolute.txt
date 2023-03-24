@@ -1,0 +1,12 @@
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\bin\Debug\net6.0\Day10SerialKillerb.deps.json
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\bin\Debug\net6.0\Day10SerialKillerb.dll
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\bin\Debug\net6.0\Day10SerialKillerb.pdb
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\Day10SerialKillerb.csproj.AssemblyReference.cache
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\Day10SerialKillerb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\Day10SerialKillerb.AssemblyInfoInputs.cache
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\Day10SerialKillerb.AssemblyInfo.cs
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\Day10SerialKillerb.csproj.CoreCompileInputs.cache
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\Day10SerialKillerb.dll
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\refint\Day10SerialKillerb.dll
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\Day10SerialKillerb.pdb
+C:\Users\Marco\OneDrive\CloudDeveloper\Day10SerialKiller\Day10SerialKillerb\obj\Debug\net6.0\ref\Day10SerialKillerb.dll

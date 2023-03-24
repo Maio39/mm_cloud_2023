@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Day8Lab1.props" />
+</Project>

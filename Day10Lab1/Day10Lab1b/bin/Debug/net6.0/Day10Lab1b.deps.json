@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Day10Lab1b/1.0.0": {
+        "dependencies": {
+          "Day10Lab1c": "1.0.0"
+        },
+        "runtime": {
+          "Day10Lab1b.dll": {}
+        }
+      },
+      "Day10Lab1c/1.0.0": {
+        "runtime": {
+          "Day10Lab1c.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day10Lab1b/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Day10Lab1c/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

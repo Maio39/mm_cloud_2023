@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Day12Test1.Models.Race>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Races</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceDestination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KmRace)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RaceDate)
+            </th>
+            <th>
+                Taxista
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceDestination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KmRace)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem=>item.Racer.TaxiName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.RaceId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.RaceId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RaceId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

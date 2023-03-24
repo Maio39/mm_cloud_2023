@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Day8Lab1.Models.Rubrica
+
+@{
+    
+}
+<h1>Rubrica</h1>
+
+@if(Model!= null && Model.Count>0){
+    <ul>
+        @foreach(Anagraphic contatto in Model)
+        {
+            <li>@contatto</li>
+        }
+    </ul>
+}else{
+    <p>Empty Rubrica</p>
+}
+
+<a asp-controller="Rubrica" asp-action="New">Add New Item</a>

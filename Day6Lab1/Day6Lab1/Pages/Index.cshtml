@@ -1,0 +1,93 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lingo</h1>
+    <!--<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>-->
+</div>
+@if(Model.LingoGame.Tentative.Count<10){
+<div>
+    @if (Model.WordTentative != Model.LingoGame.Key)
+    {
+        <p>Tentativo Precedente: @Model.LastTentative</p>
+    <br />
+    <h2>@Lingo.GetOscurateWord(Model.LingoGame.Key, Model.LingoGame.guessedLetters)</h2>
+        <br /> <p>Contiene: @Model.LingoGame.Key.Length Lettere </p>
+        <table style="width: 50%">
+            <thead>
+                <tr>
+				@for (int i = 0; i < Model.LingoGame.guessedLetters.Length; i++)
+				{
+                    if (Model.LingoGame.guessedLetters[i]==Status.None) 
+                    {
+                        <th style="background-color: dodgerblue">@Model.WordTentative[i]</th>
+                    }
+                    if (Model.LingoGame.guessedLetters[i] == Status.Incorrect)
+                    {
+                        <th style="background-color: red">@Model.WordTentative[i]</th>
+                    }
+                    if (Model.LingoGame.guessedLetters[i] == Status.CorrectButWrongPlace)
+                    {
+                        <th style="background-color: orange">@Model.WordTentative[i]</th>
+                    }
+                    if (Model.LingoGame.guessedLetters[i]==Status.Correct) 
+                    {
+                        <th style="background-color: limegreen">@Model.WordTentative[i]</th>
+                    }
+                }
+			    </tr>
+            </thead>
+            <tbody>
+                <tr>
+				@for (int i = 0; i < Model.LingoGame.guessedLetters.Length; i++)
+				{
+					<td>@Model.LingoGame.guessedLetters[i]</td>
+                }
+				</tr>
+            </tbody>
+        </table>
+        <br />
+        <div>
+            <form method="post">
+                <input type="text" name="word" id="word" placeholder="Inserisci parola" />
+                <input type="submit" name="submit" id="submit" value="Invia" />
+            </form>
+        </div>
+    }else
+    {
+        <h1><strong>HAI VINTO!!</strong></h1>
+        <h1><strong>La parola giusta: <mark>@Model.LingoGame.Key</mark></strong></h1>
+        <h4>Tentativi: </h4>
+        <ol>
+        @foreach (string tentativo in Model.LingoGame.Tentative)
+        {
+            <h4><li>@tentativo</li></h4>
+        }
+        <form method="get">
+            <input type="submit" name="newgame" id="newgame" value="New Game">
+        </form>
+        </ol>
+    }
+    </div>
+}
+else
+{
+    <h1><strong>HAI PERSO!!</strong></h1>
+    <h1><strong>La parola giusta: <mark>@Model.LingoGame.Key</mark></strong></h1>
+    <h4>Tentativi: </h4>
+    <ol>
+        @foreach (string tentativo in Model.LingoGame.Tentative)
+        {
+            <h4>
+            <li>@tentativo</li></h4>
+        }
+        <form method="get">
+            <input type="submit" name="newgame" id="newgame" value="New Game">
+        </form>
+    </ol>
+}
+<br />
+

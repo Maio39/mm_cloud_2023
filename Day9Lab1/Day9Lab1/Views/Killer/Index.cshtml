@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<string>
+@{
+}
+
+<h1>Cerca Serial Killer</h1>
+<form method="post" asp-action="SearchKiller">
+    <label>Inserisci iniziali</label>
+    <input type="text" name="search" />
+    <input type="number" name="numKiller" placeholder="Numero Max Risultati"/>
+    <input type="submit" />
+</form>
+
+@if (Model.ToList().Count == 0)
+{
+    <br />
+    <h2>Nessun Risultato trovato o Nessuna Ricerca Effettuata</h2>
+}
+else
+{
+    <h2> Lista dei Serial Killer Trovati</h2>
+    <ol>
+        @foreach (string killer in Model)
+        {
+            <li>@killer</li>
+        }
+    </ol>
+}
+

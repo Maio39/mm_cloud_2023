@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        <ol>
+            @foreach(ToDoItem td in Model.listaToDo.GetToDoList())
+            {
+                <li>@td   <input type="button" id="modifica" name="modifica" value="Modifica"/></li>
+            }
+        </ol>
+    </div>
+    <!-- Form insert -->
+
+    <div>
+        <form method="post">
+            <input type="text" placeholder="Title" id="title" name="title"/>
+            <br />
+            <input type="datetime" id="duedate" name="duedate" />
+            <br />
+            <input type="text" placeholder="Notes" id="notes" name="notes"/>
+            <br />
+            <input type="submit" id="submit" name="submit" value="Invia Dati" />
+        </form>
+    </div>
+</div>

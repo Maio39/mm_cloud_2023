@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">ToDoApp</h1>
+    <!--<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>-->
+</div>
+
+<div>
+    <ul>
+        @foreach (TodoItem tdi in Model._ListaTodo)
+        {
+            if (tdi.Priority == TodoItem.ItemPriority.Low)
+            {
+                <li style="background-color:yellow"><p>@tdi</p></li>
+            }
+            if (tdi.Priority == TodoItem.ItemPriority.Medium)
+            {
+                <li style="background-color:orange"><p>@tdi</p></li>
+            }
+            if (tdi.Priority == TodoItem.ItemPriority.High)
+            {
+                <li style="background-color:red"><p>@tdi</p></li>
+            }
+        }
+    </ul>
+</div>
+<div class="text-center">
+    <form method="post" class="form-control">
+        <!--<input type="text" name="title" id="title" placeholder="Title"/><br />
+        <input type="text" name="notes" id="notes" placeholder="Notes"/><br />
+        <input type="datetime" name="duedate" id="duedate" /><br />
+        <select id="priority" name="priority">
+            <option value="1">Low</option>
+            <option value="2">Medium</option>
+            <option value="3">High</option>
+        </select><br />
+                <input type="submit" name="submit" id="submit">-->
+        <input class="form-control" asp-for="Title" placeholder="Title"/>
+        <input class="form-control" asp-for="Notes" placeholder="Notes"/>
+        <input class="form-control" asp-for="DueDate"/>
+        <select class="form-control" asp-for="Priority">
+            <option value="0">Low</option>
+            <option value="1">Medium</option>
+            <option value="2">High</option>
+        </select>
+        <input class="form-control" type="submit"/>
+    </form>
+</div>
