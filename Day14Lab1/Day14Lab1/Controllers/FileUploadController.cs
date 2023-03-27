@@ -26,5 +26,18 @@ namespace Day14Lab1.Controllers
             }
             return Ok("Saved!");
         }
+
+        [HttpGet]
+        public IActionResult GetFile(string fileName)
+        {
+            string fullname = $"UploadFiles/{fileName}";
+            if(!System.IO.File.Exists(fullname))
+            {
+                return NotFound();
+            }
+            var rawData = System.IO.File.ReadAllBytes(fullname);
+            //we FIX this is an IMAGE
+            return File(rawData, "image/jpg");
+        }
     }
 }
