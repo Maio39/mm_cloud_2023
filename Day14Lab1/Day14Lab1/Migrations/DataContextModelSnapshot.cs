@@ -113,9 +113,14 @@ namespace Day14Lab1.Migrations
                     b.Property<int>("MoveSpeedUp")
                         .HasColumnType("int");
 
+                    b.Property<int?>("PokemonID")
+                        .HasColumnType("int");
+
                     b.HasKey("MoveID");
 
                     b.HasIndex("ElementID");
+
+                    b.HasIndex("PokemonID");
 
                     b.ToTable("Moves");
                 });
@@ -230,6 +235,10 @@ namespace Day14Lab1.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Day14Lab1.Models.Pokemon", null)
+                        .WithMany("Moves")
+                        .HasForeignKey("PokemonID");
+
                     b.Navigation("Element");
                 });
 
@@ -250,6 +259,8 @@ namespace Day14Lab1.Migrations
             modelBuilder.Entity("Day14Lab1.Models.Pokemon", b =>
                 {
                     b.Navigation("Elements");
+
+                    b.Navigation("Moves");
                 });
 #pragma warning restore 612, 618
         }

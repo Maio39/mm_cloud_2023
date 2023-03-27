@@ -23,7 +23,7 @@ namespace Day14Lab1.Models
 
         //Moves limit 4
         //3th normal form of DB
-        List<Move> Moves { get; set; } = new List<Move>();
+        public List<Move> Moves { get; set; } = new List<Move>();
         /*/Denormalization of Database (NoSQL like)
         public Move? Move1 { get; set;}
         public Move? Move2 { get; set;}

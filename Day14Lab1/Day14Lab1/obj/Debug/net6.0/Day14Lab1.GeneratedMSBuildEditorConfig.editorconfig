@@ -16,12 +16,72 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Marco\source\repos\Maio39\mm_cloud_2023\Day14Lab1\Day14Lab1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Elements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Elements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Elements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Elements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Elements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Moves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Moves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Moves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Moves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Moves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Pokemons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Pokemons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Pokemons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Pokemons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Pokemons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marco/source/repos/Maio39/mm_cloud_2023/Day14Lab1/Day14Lab1/Views/Shared/Error.cshtml]
