@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Day14Lab1.Models;
+using System.IO;
+using Newtonsoft.Json;
+using System.Text.Json;
+using System.Text.Json.Nodes;
 
 namespace Day14Lab1.Controllers
 {
@@ -16,6 +20,32 @@ namespace Day14Lab1.Controllers
         public ElementsController(DataContext context)
         {
             _context = context;
+
+            if (_context.Elements.Count() == 0)
+            {
+                var dbmosse = JsonObject.Parse(System.IO.File.ReadAllText("Moves.json"));
+
+                Dictionary<string, string> ListaElementi = new Dictionary<string, string>();
+                foreach (var mv in dbmosse.AsArray())
+                {
+                    var elements = mv!["Type"];
+                    if (elements != null)
+                    {
+                        ListaElementi[elements.AsValue().ToString()] = elements.AsValue().ToString();
+                    }
+
+                }
+                foreach (var el in ListaElementi.Keys)
+                {
+                    _context.Elements.Add(new Element
+                    {
+                        ElementName = el
+                    });
+                }
+                _context.SaveChanges();
+            }
+            
+            
         }
 
         // GET: Elements

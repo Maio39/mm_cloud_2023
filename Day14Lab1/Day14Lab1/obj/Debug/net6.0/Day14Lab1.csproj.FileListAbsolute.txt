@@ -287,3 +287,4 @@ C:\Users\Marco\source\repos\Maio39\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\n
 C:\Users\Marco\source\repos\Maio39\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Marco\source\repos\Maio39\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Marco\source\repos\Maio39\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Marco\source\repos\Maio39\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\Moves.json
