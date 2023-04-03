@@ -13,6 +13,12 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddRoles<IdentityRole>()  //Use roles
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+//modi per estrarre le chiavi da file json
+string key = builder.Configuration["Antani:TestKey"];
+string keyu = builder.Configuration.GetSection("Antani")["TestKey"];
+Console.WriteLine(key);
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
