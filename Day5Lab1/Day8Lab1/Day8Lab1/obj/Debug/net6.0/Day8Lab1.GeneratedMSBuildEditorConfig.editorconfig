@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Day8Lab1
 build_property.RootNamespace = Day8Lab1
-build_property.ProjectDir = C:\Users\Marco\Source\Repos\Maio39\mm_cloud_2023\Day5Lab1\Day8Lab1\Day8Lab1\
+build_property.ProjectDir = D:\source\repos\mm_cloud_2023\Day5Lab1\Day8Lab1\Day8Lab1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Marco\Source\Repos\Maio39\mm_cloud_2023\Day5Lab1\Day8Lab1\Day8Lab1
+build_property.MSBuildProjectDirectory = D:\source\repos\mm_cloud_2023\Day5Lab1\Day8Lab1\Day8Lab1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Calc/Index.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Calc/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Home/Index.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Home/Privacy.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Rubrica/Anagrafica.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Rubrica/Anagrafica.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVicmljYVxBbmFncmFmaWNhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Rubrica/Index.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Rubrica/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVicmljYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Shared/Error.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/_ViewImports.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/_ViewStart.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Shared/_Layout.cshtml]
+[D:/source/repos/mm_cloud_2023/Day5Lab1/Day8Lab1/Day8Lab1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d66gtohphn

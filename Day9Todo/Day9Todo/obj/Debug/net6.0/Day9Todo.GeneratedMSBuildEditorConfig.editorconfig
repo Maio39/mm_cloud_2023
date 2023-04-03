@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Day9Todo
 build_property.RootNamespace = Day9Todo
-build_property.ProjectDir = C:\Users\Marco\Source\Repos\Maio39\mm_cloud_2023\Day9Todo\Day9Todo\
+build_property.ProjectDir = D:\source\repos\mm_cloud_2023\Day9Todo\Day9Todo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Marco\Source\Repos\Maio39\mm_cloud_2023\Day9Todo\Day9Todo
+build_property.MSBuildProjectDirectory = D:\source\repos\mm_cloud_2023\Day9Todo\Day9Todo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Home/Index.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Home/Privacy.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Shared/Error.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Create.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Delete.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Details.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Edit.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Index.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Tasks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/_ViewImports.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/_ViewStart.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marco/Source/Repos/Maio39/mm_cloud_2023/Day9Todo/Day9Todo/Views/Shared/_Layout.cshtml]
+[D:/source/repos/mm_cloud_2023/Day9Todo/Day9Todo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jafffr4d6g
