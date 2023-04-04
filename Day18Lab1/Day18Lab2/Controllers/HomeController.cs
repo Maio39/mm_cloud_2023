@@ -1,6 +1,7 @@
 ﻿using Day18Lab2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Text.Json.Nodes;
 
 namespace Day18Lab2.Controllers
 {
@@ -8,16 +9,30 @@ namespace Day18Lab2.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly HttpClient _httpClient;
+        private readonly HttpClient _httpCat;
 
         public HomeController(ILogger<HomeController> logger, IHttpClientFactory ApiFactory)
         {
             _logger = logger;
             //Uso
             _httpClient=ApiFactory.CreateClient("Md5");
+            _httpCat = ApiFactory.CreateClient("cats");
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var res = await _httpCat.GetAsync(_httpCat.BaseAddress);
+            if(res.IsSuccessStatusCode)
+            {
+                string buffer = await res.Content.ReadAsStringAsync();
+                var json = JsonObject.Parse(buffer);
+                List<string> quotes = new List<string>();
+                foreach(var item in json.AsArray())
+                {
+                    quotes.Add(item!["text"].ToString());
+                }
+                ViewData["Quotes"] = quotes;
+            }
             return View();
         }
 

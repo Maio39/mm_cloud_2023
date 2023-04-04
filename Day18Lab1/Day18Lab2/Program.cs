@@ -21,7 +21,7 @@ builder.Services.AddHttpClient("Md5", client =>
     client.BaseAddress = new Uri(uri);
     client.DefaultRequestHeaders.Add("mytoken", "antani");
 });
-/*/
+//cat
 string caturi = builder.Configuration["cats:uri"];
 builder.Services.AddHttpClient("cats", client =>
 {
