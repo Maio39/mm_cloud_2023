@@ -1,0 +1,44 @@
+﻿@model Day17Lab2.Models.CodiceFiscale
+@{
+    ViewData["Title"] = "Generatore codice fiscale";
+}
+<h2>Ciao @User.Identity.Name</h2>
+@if (User.IsInRole("admin"))
+{
+    <p>Sei un utente <b>Admin</b></p>
+}
+<p>Benvenuto nella pagina di generazione di <b>codice fiscale</b></p>
+
+<form method="post" asp-action="GeneraCF">
+    <div class="form-group">
+        <label asp-for="Cognome" class="control-label"></label>
+        <input asp-for="Cognome" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Sesso" class="control-label"></label>
+        <input asp-for="Sesso" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nascita" class="control-label"></label>
+        <input asp-for="Nascita" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Comune" class="control-label"></label>
+        <input asp-for="Comune" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Provincia" class="control-label"></label>
+        <input asp-for="Provincia" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LivelloOmocodia" class="control-label"></label>
+        <input asp-for="LivelloOmocodia" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="GeneraCF" class="btn btn-primary" />
+    </div>
+</form>
