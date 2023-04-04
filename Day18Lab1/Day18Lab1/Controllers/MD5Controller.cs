@@ -8,11 +8,11 @@ namespace Day18Lab1.Controllers
     [ApiController]
     public class MD5Controller : ControllerBase
     {
+        protected readonly MD5 md5 = MD5.Create();
         public MD5Controller() { }
 
-        private string Compute(string PlainText)
+        protected string Compute(string PlainText)
         {
-            var md5 = MD5.Create();
             byte[] HashCode = md5.ComputeHash(System.Text.UTF8Encoding.UTF8.GetBytes(PlainText));
             return BitConverter.ToString(HashCode);
         }
