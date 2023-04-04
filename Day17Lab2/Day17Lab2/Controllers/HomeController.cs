@@ -28,12 +28,13 @@ namespace Day17Lab2.Controllers
         public IActionResult GeneraCF([FromForm]string Cognome,string Nome,string Sesso,DateTime Nascita,string Comune,string provincia,int LivelloOmocodia)
         {
             CodiceFiscale cod = new CodiceFiscale(Cognome, Nome, Sesso, Nascita, Comune, provincia, LivelloOmocodia);
-            return RedirectToAction(nameof(ViewCF),cod);
+            //ViewData["CF"] = cod.Codice.ToUpper();
+            return View("Views/Home/ViewCF.cshtml",cod);
         }
 
-        public IActionResult ViewCF(CodiceFiscale cf)
+        public IActionResult ViewCF()
         {
-            return View(cf);
+            return View();
         }
 
         public IActionResult Privacy()
