@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\mm_cloud_2023\\Day17Lab2\\Day17Lab2\\Day17Lab2.csproj": {}
+    "/Users/marcomaier/source/repos/mm_cloud_2023/Day17Lab2/Day17Lab2/Day17Lab2.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\mm_cloud_2023\\Day17Lab2\\Day17Lab2\\Day17Lab2.csproj": {
+    "/Users/marcomaier/source/repos/mm_cloud_2023/Day17Lab2/Day17Lab2/Day17Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\mm_cloud_2023\\Day17Lab2\\Day17Lab2\\Day17Lab2.csproj",
+        "projectUniqueName": "/Users/marcomaier/source/repos/mm_cloud_2023/Day17Lab2/Day17Lab2/Day17Lab2.csproj",
         "projectName": "Day17Lab2",
-        "projectPath": "D:\\source\\repos\\mm_cloud_2023\\Day17Lab2\\Day17Lab2\\Day17Lab2.csproj",
-        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\mm_cloud_2023\\Day17Lab2\\Day17Lab2\\obj\\",
+        "projectPath": "/Users/marcomaier/source/repos/mm_cloud_2023/Day17Lab2/Day17Lab2/Day17Lab2.csproj",
+        "packagesPath": "/Users/marcomaier/.nuget/packages/",
+        "outputPath": "/Users/marcomaier/source/repos/mm_cloud_2023/Day17Lab2/Day17Lab2/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/marcomaier/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,13 +51,29 @@
               "target": "Package",
               "version": "[6.0.15, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[8.0.0-preview.2.23128.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             }
           },
           "imports": [
@@ -85,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

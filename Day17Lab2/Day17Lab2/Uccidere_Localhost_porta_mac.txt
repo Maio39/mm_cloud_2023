@@ -1,0 +1,5 @@
+﻿comando ver visualizzare i servizi attivi su una porta
+lsof -i :7105
+comando per killare/uccidere un processo su quella porta
+kill <pid> Es: (kill 36789)
+
