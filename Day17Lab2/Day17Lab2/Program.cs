@@ -5,6 +5,12 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+/*/ Metodo connection string 2
+var dbHost = "localhost";
+var dbName = "user";
+var dbPassword = "Pa26090w0rd";
+var connString = $"Data Source = {dbHost};Initial Catalog = {dbName};User Id = sa;Password = {dbPassword};Persist Security Info=True;";
+//*/
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
