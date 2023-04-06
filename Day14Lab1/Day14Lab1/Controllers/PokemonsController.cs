@@ -44,6 +44,46 @@ namespace Day14Lab1.Controllers
             return View(pokemon);
         }
 
+        //Add picture to pokemon
+        public IActionResult AddPicture(int id = 0)
+        {
+            ViewData["PokemonID"] = id;
+            return View();
+
+        }
+        [HttpPost]
+        public IActionResult AddPictureData(int id)
+        {
+            Pokemon p = _context.Pokemons.Find(id);
+            if (p == null)
+            {
+                return NotFound();
+            }
+            if (Request.Form.Files.Count == 1)
+            {
+                var file = Request.Form.Files[0];
+                var fileName = file.FileName;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    file.CopyTo(ms);
+                    Picture picture = new Picture()
+                    {
+                        PictureName = fileName,
+                        RawData = ms.ToArray()
+                    };
+
+                    _context.Pictures.Add(picture);
+                    if (p.Picture != null)
+                    {
+                        _context.Pictures.Remove(p.Picture);
+                    }
+                    p.Picture = picture;
+                }
+                _context.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
+
         // GET: Pokemons/Create
         public IActionResult Create()
         {

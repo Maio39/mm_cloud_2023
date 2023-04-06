@@ -1,0 +1,14 @@
+﻿@{
+    int PokemonID = (int)ViewData["PokemonID"];
+    ViewData["Title"] = "Add Picture";
+}
+<h1>Add Picture</h1>
+
+<div>
+    <form asp-action="AddPictureData" method="post" enctype="multipart/form-data">
+        <p>Select File</p>
+        <input type="hidden" name="id" value="@PokemonID" />
+        <input type="file" name="addPicture" />
+        <input type="submit" />
+    </form>
+</div>
