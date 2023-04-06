@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Day14Lab1.Models;
+using System.Drawing;
 
 namespace Day14Lab1.Controllers
 {
@@ -22,7 +23,9 @@ namespace Day14Lab1.Controllers
         public async Task<IActionResult> Index()
         {
               return _context.Pokemons != null ? 
-                          View(await _context.Pokemons.ToListAsync()) :
+                          View(await _context.Pokemons
+                          .Include(x=>x.Picture)
+                          .ToListAsync()) :
                           Problem("Entity set 'DataContext.Pokemons'  is null.");
         }
 
@@ -35,6 +38,7 @@ namespace Day14Lab1.Controllers
             }
 
             var pokemon = await _context.Pokemons
+                .Include(x=>x.Picture)
                 .FirstOrDefaultAsync(m => m.PokemonID == id);
             if (pokemon == null)
             {
@@ -84,6 +88,43 @@ namespace Day14Lab1.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult GetPicture(int Id)
+        {
+            Picture picture = _context.Pictures.Find(Id);
+            if (picture == null)
+            {
+                return NotFound();
+            }
+            var rawData = picture.RawData;
+
+            MemoryStream ms1 = new MemoryStream(rawData);
+            /*/Watermark
+            Bitmap bitmap = new Bitmap(Bitmap.FromStream(ms1));
+
+            Graphics graphic = Graphics.FromImage(bitmap);
+
+            string myWater = $"MMLogo {DateTime.Now}";
+            Font font = new Font(FontFamily.GenericSansSerif, 20, FontStyle.Bold);
+            Size l_w = graphic.MeasureString(myWater, font).ToSize();
+            Point p = new Point(10, 20);
+            Point p1 = new Point(11, 21);
+
+            //Background
+            graphic.FillRectangle(new SolidBrush(Color.Aquamarine), new Rectangle(p, l_w));
+            //Subpixeling
+            graphic.DrawString(myWater, font, Brushes.Black, p1);
+            //
+            graphic.DrawString(myWater, font, Brushes.White, p);
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                bitmap.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+                return File(ms.ToArray(), "image/png");
+            }
+            //*/
+            return File(ms1.ToArray(), "image/png");
+        }
+
         // GET: Pokemons/Create
         public IActionResult Create()
         {
@@ -99,6 +140,32 @@ namespace Day14Lab1.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (Request.Form.Files.Count == 1)
+                {
+                    var file = Request.Form.Files[0];
+                    var fileName = file.FileName;
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        file.CopyTo(ms);
+                        Picture picture = new Picture()
+                        {
+                            PictureName = fileName,
+                            RawData = ms.ToArray()
+                        };
+
+                        _context.Pictures.Add(picture);
+                        if (pokemon.Picture != null)
+                        {
+                            _context.Pictures.Remove(pokemon.Picture);
+                        }
+                        pokemon.Picture = picture;
+                    }
+                }
+                else
+                {
+                    Picture picture = _context.Pictures.Find(6);
+                    pokemon.Picture = picture;
+                }
                 _context.Add(pokemon);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -114,7 +181,8 @@ namespace Day14Lab1.Controllers
                 return NotFound();
             }
 
-            var pokemon = await _context.Pokemons.FindAsync(id);
+            var pokemon = await _context.Pokemons
+                .FindAsync(id);
             if (pokemon == null)
             {
                 return NotFound();
@@ -166,6 +234,7 @@ namespace Day14Lab1.Controllers
             }
 
             var pokemon = await _context.Pokemons
+                .Include(x=>x.Picture)
                 .FirstOrDefaultAsync(m => m.PokemonID == id);
             if (pokemon == null)
             {

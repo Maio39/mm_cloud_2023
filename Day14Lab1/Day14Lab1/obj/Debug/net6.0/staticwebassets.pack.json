@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\source\\repos\\mm_cloud_2023\\Day14Lab1\\Day14Lab1\\wwwroot\\images\\Ivysaur.png",
+      "PackagePath": "staticwebassets\\images\\Ivysaur.png"
+    },
+    {
+      "Id": "D:\\source\\repos\\mm_cloud_2023\\Day14Lab1\\Day14Lab1\\wwwroot\\images\\No-Image.svg",
+      "PackagePath": "staticwebassets\\images\\No-Image.svg"
+    },
+    {
+      "Id": "D:\\source\\repos\\mm_cloud_2023\\Day14Lab1\\Day14Lab1\\wwwroot\\images\\bulbasaur.png",
+      "PackagePath": "staticwebassets\\images\\bulbasaur.png"
+    },
+    {
       "Id": "D:\\source\\repos\\mm_cloud_2023\\Day14Lab1\\Day14Lab1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

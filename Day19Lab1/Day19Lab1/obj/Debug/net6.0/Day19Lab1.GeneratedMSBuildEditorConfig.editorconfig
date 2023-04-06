@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Day19Lab1
 build_property.RootNamespace = Day19Lab1
-build_property.ProjectDir = D:\source\repos\mm_cloud_2023\Day19Lab1\Day19Lab1\
+build_property.ProjectDir = d:\source\repos\mm_cloud_2023\Day19Lab1\Day19Lab1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\source\repos\mm_cloud_2023\Day19Lab1\Day19Lab1
+build_property.MSBuildProjectDirectory = d:\source\repos\mm_cloud_2023\Day19Lab1\Day19Lab1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Customer/Index.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Customer/_CustomerPartial.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Customer/_CustomerPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcX0N1c3RvbWVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Home/Index.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Home/Privacy.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Shared/Error.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/_ViewImports.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/_ViewStart.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Shared/_Layout.cshtml]
+[d:/source/repos/mm_cloud_2023/Day19Lab1/Day19Lab1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e3tcy03mzm

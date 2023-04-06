@@ -1,0 +1,49 @@
+﻿@model Day14Lab1.Models.Pokemon
+@{
+    
+}
+<div class="card" style="width:360px">
+    @if (Model.Picture != null)
+    {
+        <img class="card-img-top" src="@Url.Action("GetPicture","Pokemons",new {Id=Model.Picture.PictureID})" />
+    }
+    <div class="card-header">
+        <div class="card-title">@Model.PokemonName</div>
+    </div>
+    <div class="card-body">
+        <div class="card-title">Name: @Model.PokemonName</div>
+        <div class="card-text">Weight: @Model.PokemonWeight</div>
+        <div class="card-text">Level: @Model.PokemonLevel</div>
+        <div class="card-text">XP: @Model.PokemonXP</div>
+        <div class="card-text">Attack: @Model.PokemonAttack</div>
+        <div class="card-text">Defense: @Model.PokemonDefense</div>
+        <div class="card-text">SpecialAttack: @Model.PokemonSpecialAttack</div>
+        <div class="card-text">SpecialDefense: @Model.PokemonSpecialDefense</div>
+        <div class="card-text">Speed: @Model.PokemonSpeed</div>
+        <div class="card-text">LifePoints: @Model.PokemonLifePoints</div>
+        <div class="card-text">Status: @Model.PokemonStatus</div>
+        @if (Model.IsMale)
+        {
+            <div class="card-text">IsMale</div>
+        }
+        @if (Model.IsFemale)
+        {
+            <div class="card-text">IsFemale</div>
+        }
+        @if (Model.IsLegendary)
+        {
+            <div class="card-text">IsLegendary</div>
+        }
+        @if (Model.IsEgg)
+        {
+            <div class="card-text">IsEgg</div>
+        }
+
+    </div>
+    <div class="card-footer">
+        <a asp-action="Edit" asp-route-id="@Model.PokemonID">Edit</a> |
+        <a asp-action="Details" asp-route-id="@Model.PokemonID">Details</a> |
+        <a asp-action="Delete" asp-route-id="@Model.PokemonID">Delete</a> |
+        <a asp-action="AddPicture" asp-route-id="@Model.PokemonID">Add Picture</a>
+    </div>
+</div>
