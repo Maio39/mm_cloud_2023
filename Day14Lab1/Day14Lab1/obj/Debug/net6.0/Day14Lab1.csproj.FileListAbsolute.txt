@@ -292,6 +292,7 @@ C:\Users\Marco\source\repos\Maio39\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\n
 D:\source\repos\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\appsettings.Development.json
 D:\source\repos\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\appsettings.json
 D:\source\repos\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\Moves.json
+D:\source\repos\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\pokedex.json
 D:\source\repos\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\pokemon.json
 D:\source\repos\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\Day14Lab1.staticwebassets.runtime.json
 D:\source\repos\mm_cloud_2023\Day14Lab1\Day14Lab1\bin\Debug\net6.0\Day14Lab1.exe

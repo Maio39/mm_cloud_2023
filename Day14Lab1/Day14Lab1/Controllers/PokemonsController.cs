@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Day14Lab1.Models;
 using System.Drawing;
+using System.Reflection.Metadata;
+using System.Text.Json.Nodes;
 
 namespace Day14Lab1.Controllers
 {
@@ -17,14 +19,83 @@ namespace Day14Lab1.Controllers
         public PokemonsController(DataContext context)
         {
             _context = context;
+            //PopolateDB
+            if (_context.Pokemons.Count() == 0)
+            {
+                var json = JsonObject.Parse(System.IO.File.ReadAllText("pokedex.json"));
+                var htp = new HttpClient();
+                foreach (var item in json.AsArray())
+                {
+                    Pokemon poke = new Pokemon()
+                    {
+                        PokemonName = item!["name"]["english"].ToString(),
+                        PokemonWeight = new Random().Next(1, 100),
+                        PokemonLevel = new Random().Next(1, 100),
+                        PokemonXP = new Random().Next(1, 100), 
+                        PokemonStatus = 1,
+                        IsLegendary = false,
+                        IsMale = false,
+                        IsFemale = false,
+                        IsEgg = false
+                    };
+                    if (item!["base"] != null)
+                    {
+                        poke.PokemonAttack = (int)item!["base"]["Attack"];
+                        poke.PokemonDefense = (int)item!["base"]["Defense"];
+                        poke.PokemonSpecialAttack = (int)item!["base"]["Sp. Attack"];
+                        poke.PokemonSpecialDefense = (int)item!["base"]["Sp. Defense"];
+                        poke.PokemonSpeed = (int)item!["base"]["Speed"];
+                        poke.PokemonLifePoints = (int)item!["base"]["HP"];
+                    }
+                    if (item["image"]["hires"] != null)
+                    {
+                        var res = htp.GetAsync(item["image"]["hires"].AsValue().ToString()).Result;
+                        if (res.IsSuccessStatusCode)
+                        {
+                            byte[] img = res.Content.ReadAsByteArrayAsync().Result;
+                            Picture pic = new Picture()
+                            {
+                                PictureName = poke.PokemonName,
+                                RawData = img
+                            };
+                            _context.Pictures.Add(pic);
+                            poke.Picture = pic;
+                        }
+                    }
+                    else
+                    {
+                        var res = htp.GetAsync("https://www.brasscraft.com/wp-content/uploads/2017/01/no-image-available.png").Result;
+                        if (res.IsSuccessStatusCode)
+                        {
+                            byte[] img = res.Content.ReadAsByteArrayAsync().Result;
+                            Picture pic = new Picture()
+                            {
+                                PictureName = poke.PokemonName,
+                                RawData = img
+                            };
+                            _context.Pictures.Add(pic);
+                            poke.Picture = pic;
+                        }
+                    }
+                    _context.Pokemons.Add(poke);
+                }
+                _context.SaveChanges();
+            }
         }
 
         // GET: Pokemons
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int size = 50)
         {
-              return _context.Pokemons != null ? 
+            if (page < 1)
+                page = 1;
+            ViewData["Page"] = page;
+            ViewData["Size"] = size;
+            ViewData["TotPages"] = _context.Pokemons.Count() / size;
+            return _context.Pokemons != null ? 
                           View(await _context.Pokemons
                           .Include(x=>x.Picture)
+                          .Skip(size*(page-1))
+                          .Take(size)
                           .ToListAsync()) :
                           Problem("Entity set 'DataContext.Pokemons'  is null.");
         }

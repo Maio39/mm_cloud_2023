@@ -2,16 +2,31 @@
 
 @{
     ViewData["Title"] = "Pokemons Home";
+    int pageid = ViewBag.Page;
+    int totcount = ViewBag.TotPages;
+    int next = pageid == totcount ? totcount : pageid + 1;
+    int prev = pageid == 1 ? 1 : pageid - 1;
+    int size = ViewBag.Size;
 }
 
 <h1>Pokedex</h1>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-
+<hr />
+<!-- Manual Pager -->
+<a class="card-link" asp-route-page="@prev">Prev</a>
+( @pageid / @totcount )
+<a class="card-link" asp-route-page="@next">Next</a>
+<!-- Manual Pager -->
 @foreach(var poke in Model)
 {
     @await Html.PartialAsync("_PokemonPartial.cshtml",poke)
 }
-
+<!-- Manual Pager -->
+<a class="card-link" asp-route-page="@prev">Prev</a>
+( @pageid / @totcount )
+<a class="card-link" asp-route-page="@next">Next</a>
+<!-- Manual Pager -->
+<hr />
 

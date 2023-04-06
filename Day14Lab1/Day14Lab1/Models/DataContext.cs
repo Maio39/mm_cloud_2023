@@ -3,7 +3,10 @@ namespace Day14Lab1.Models
 {
     public class DataContext: DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options):base(options) { }
+        public DataContext(DbContextOptions<DataContext> options):base(options) 
+        {
+            Database.Migrate();
+        }
         public virtual DbSet<Pokemon> Pokemons { get; set; }
         public virtual DbSet<Element> Elements { get; set; }
         public virtual DbSet<ElementSensibility> ElementsSensibilities { get; set; }
