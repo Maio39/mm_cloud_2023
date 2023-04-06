@@ -1,0 +1,8 @@
+﻿@model List<Day19Lab1.Models.Customer>
+@{
+    ViewData["Title"] = "Customer Home";
+}
+
+@foreach(var cust in Model){
+    @await Html.PartialAsync("_CustomerPartial.cshtml",cust)
+}
