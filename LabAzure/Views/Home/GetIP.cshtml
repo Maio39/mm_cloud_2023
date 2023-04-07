@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Get Information By IP";
+    string infoIp = null;
+    if (ViewData.ContainsKey("IP"))
+    {
+        infoIp = ViewBag.IP;
+    }
+    List<string> info = null;
+    if (ViewData.ContainsKey("IpList"))
+    {
+        info = ViewBag.IpList;
+    }
+    string IpAddress = "0.0.0.0";
+    if (ViewData.ContainsKey("IPAddress"))
+    {
+        IpAddress = ViewBag.IPAddress;
+    }
+}
+
+<div>
+    <h1>Get Information By IP Address</h1>
+    <form asp-action="GetIP" class="form-control">
+        <label class="form-label">Inserisci IP Pubblico</label>
+        <input type="text" name="IP" class="form-text"/>
+        <input type="submit" class="btn-primary" value="Get"/>
+    </form>
+</div>
+<hr />
+<div>
+    @if (infoIp != null)
+    {
+        <h3>Information</h3>
+        <p>@infoIp</p>
+        <ul>
+            @foreach(var item in info)
+            {
+                <li>@item.ToString()</li>
+            }
+        </ul>
+    }
+</div>
+
