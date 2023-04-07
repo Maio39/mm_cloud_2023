@@ -1,0 +1,28 @@
+﻿@{
+    List<string> info = null;
+    if (ViewData.ContainsKey("pokeinfo"))
+    {
+        info = ViewBag.pokeinfo;
+    }
+}
+<div>
+    <h1>Get Information By Pokemon</h1>
+    <form asp-action="GetPokeInfo" class="form-control">
+        <label class="form-label">Insert name of the pokemon</label>
+        <input type="text" name="pokeName" class="form-text" />
+        <input type="submit" class="btn-primary" value="Get" />
+    </form>
+</div>
+<hr />
+<div>
+    @if (info != null)
+    {
+        <h3>Information</h3>
+        <ul>
+            @foreach (var item in info)
+            {
+                <li>@item.ToString()</li>
+            }
+        </ul>
+    }
+</div>

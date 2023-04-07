@@ -10,6 +10,13 @@ builder.Services.AddHttpClient("InfoIp",client =>
     client.DefaultRequestHeaders.Add("USER-AGENT", "Mysearchspooter");
 });
 
+string uripoke = builder.Configuration["poke:uri"];
+builder.Services.AddHttpClient("poke", client =>
+{
+    client.BaseAddress=new Uri(uripoke);
+    client.DefaultRequestHeaders.Add("token", "mysuperkey");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
