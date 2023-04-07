@@ -1,0 +1,12 @@
+D:\source\repos\mm_cloud_2023\Day20Lab1\bin\Debug\net6.0\Day20Lab1.deps.json
+D:\source\repos\mm_cloud_2023\Day20Lab1\bin\Debug\net6.0\Day20Lab1.dll
+D:\source\repos\mm_cloud_2023\Day20Lab1\bin\Debug\net6.0\Day20Lab1.pdb
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\Day20Lab1.csproj.AssemblyReference.cache
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\Day20Lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\Day20Lab1.AssemblyInfoInputs.cache
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\Day20Lab1.AssemblyInfo.cs
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\Day20Lab1.csproj.CoreCompileInputs.cache
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\Day20Lab1.dll
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\refint\Day20Lab1.dll
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\Day20Lab1.pdb
+D:\source\repos\mm_cloud_2023\Day20Lab1\obj\Debug\net6.0\ref\Day20Lab1.dll
